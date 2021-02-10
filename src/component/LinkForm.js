@@ -12,7 +12,7 @@ export default function LinkForm({refreshLinks}) {
     e.preventDefault();
     const body = { name, description, url };
     try {
-        await fetch('/api/createLink',{
+        await fetch('/.netlify/functions/createLink',{
             method:"POST",
             body:JSON.stringify(body)
         })
