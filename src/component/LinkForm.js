@@ -25,7 +25,7 @@ export default function LinkForm({refreshLinks}) {
   };
   return (
     <div className="card">
-      <div className="card-header">Add Link</div>
+      <div className="card-header">Add Links</div>
       <div className="card-body">
         <form onSubmit={handleSubmit}>
           <div className="form-group">
